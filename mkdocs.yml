@@ -1,0 +1,26 @@
+site_name: Rahti deployment test
+edit_uri: "https://github.com/samiilvonen/rahti-test/edit/master/docs"
+nav:
+  - Home: index.md
+  - Environment:
+     - Modules: computing-environment/module-system/index.md
+
+theme:
+  name: windmill
+  custom_dir: mkdocs_csc
+extra:
+  logo: img/CSC_LOGO_nega_pad.png
+  article_nav: false
+  footer: false
+
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - https://use.fontawesome.com/e51b07f7f1.js
+markdown_extensions:
+  - toc:
+      toc_depth: 2-6
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.snippets
